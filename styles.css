@@ -32,6 +32,7 @@ body {
 
 .cardFront p{
   text-align: center;
+  font-size: 0.6rem;
 }
 .happy {
   font-family: Tahoma, sans-serif;
@@ -228,6 +229,10 @@ p {
     width: 350px;
     height: 450px;
   }
+  .cardFront p{
+
+  font-size: 1rem;
+}
 
   .cardInside {
     width: 350px;
