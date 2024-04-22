@@ -30,16 +30,31 @@ body {
   
 }
 
-.cardFront p{
+.cardFront h6{
   text-align: center;
   font-size: 0.6rem;
 }
+
 .happy {
   font-family: Tahoma, sans-serif;
-  text-align: center;
   margin: 30px;
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-  transition: 0.1s;
+text-align: center;
+  overflow: hidden;
+  background-image: linear-gradient(120deg, #111111 0%, #fda085 100%);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 4s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
 }
 
 #birthdayVideo {
@@ -225,7 +240,7 @@ p {
   visibility: hidden;
 }
 
-.birthdayCard:hover p{
+.birthdayCard:hover h6{
   visibility: hidden;
 }
 @media screen and (min-width: 600px) {
@@ -237,8 +252,11 @@ p {
     width: 350px;
     height: 450px;
   }
-  .cardFront p{
-
+  .happy{
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+  .cardFront h6{
   font-size: 1rem;
 }
 
