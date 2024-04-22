@@ -216,6 +216,11 @@ p {
   transform: rotateY(-160deg);
 }
 
+.birthdayCard.is-flipped .cardFront {
+  transform: rotateY(-160deg);
+}
+
+
 .birthdayCard:hover .happy {
   visibility: hidden;
 }
