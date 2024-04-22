@@ -32,7 +32,10 @@ body {
 
 .cardFront h6{
   text-align: center;
-  font-size: 0.6rem;
+  font-size: 0.4rem;
+  font-family:Tahoma, sans-serif;
+  letter-spacing: 3px;
+  color: silver;
 }
 
 .happy {
@@ -222,7 +225,7 @@ p {
 /* transition, on click */
 
 .birthdayCard:hover {
-  transform: perspective(2500px) rotate(5deg) translateX(35px);
+  transform: perspective(2500px) rotate(5deg) translateX(45px);
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
     0 10px 100px rgba(0, 0, 0, 0.5);
 }
@@ -257,7 +260,7 @@ p {
     letter-spacing: 0.1rem;
   }
   .cardFront h6{
-  font-size: 1rem;
+  font-size: 0.6rem;
 }
 
   .cardInside {
