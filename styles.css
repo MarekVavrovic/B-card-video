@@ -220,6 +220,9 @@ p {
   visibility: hidden;
 }
 
+.birthdayCard:hover p{
+  visibility: hidden;
+}
 @media screen and (min-width: 600px) {
   .birthdayCard {
     width: 350px;
